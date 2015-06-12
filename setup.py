@@ -19,7 +19,7 @@ setup(
     author='Henrik Ossipoff Hansen',
     author_email='henrik.ossipoff@gmail.com',
     install_requires=install_requires,
-    packages=find_packages(where='.', exclude=('tests*',)),
+    packages=find_packages(exclude=['tests']),
     tests_require=test_require,
     test_suite='tests.run_tests.all',
     classifiers=[])
