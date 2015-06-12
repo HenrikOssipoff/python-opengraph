@@ -1,0 +1,23 @@
+language: python
+
+python:
+    - 2.7
+    - 3.3
+    - 3.4
+    - pypy
+
+install:
+    - pip install .
+    - pip install flake8 isort pep8-naming coverage coveralls
+
+before_script:
+    - chmod -R +x ./bin
+    - ./bin/isort.sh
+    - flake8 --max-complexity 10 opengraph
+
+script:
+    - python setup.py test
+    - coverage run setup.py test
+
+after_success:
+    - coveralls
