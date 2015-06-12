@@ -7,7 +7,7 @@ VERSION = (0, 0, 1)
 __version__ = VERSION
 __versionstr__ = '.'.join([str(v) for v in VERSION])
 
-install_requires = ['requests>=2.7']
+install_requires = ['beautifulsoup4>=4.3', 'requests>=2.7']
 test_require = install_requires + ['coverage>=3.7', 'nose>=1.3']
 
 setup(
