@@ -22,4 +22,11 @@ setup(
     packages=find_packages(exclude=['tests']),
     tests_require=test_require,
     test_suite='tests.run_tests.all',
-    classifiers=[])
+    classifiers=[
+        'Development Status :: 1 - Planning',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: Implementation :: PyPy'
+    ])
