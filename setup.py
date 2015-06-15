@@ -23,7 +23,7 @@ setup(
     tests_require=test_require,
     test_suite='tests.run_tests.all',
     classifiers=[
-        'Development Status :: 1 - Planning',
+        'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
@@ -33,4 +33,5 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: Implementation :: PyPy'
-    ])
+    ],
+    keywords='opengraph')
