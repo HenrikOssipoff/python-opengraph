@@ -3,9 +3,9 @@
 .. image:: https://coveralls.io/repos/HenrikOssipoff/python-opengraph/badge.svg?branch=master
   :target: https://coveralls.io/r/HenrikOssipoff/python-opengraph?branch=master
 
-Python module to parse Open Graph metadata on web pages. For more information on the Open Graph Protocol, see http://ogp.me/.
+❗ This repository is no longer maintained in any way. PRs will not be responded to ❗
 
-**This repository is currently work in progress, and APIs may change without notice.**
+Python module to parse Open Graph metadata on web pages. For more information on the Open Graph Protocol, see http://ogp.me/.
 
 Compatability
 =============
